@@ -7,7 +7,3 @@ def insertion_sort(A):
 			i = i - 1
 		A[i + 1] = key
 
-A = [4, 3, 5, 2, 1]
-print(A)
-insertion_sort(A)
-print(A)
