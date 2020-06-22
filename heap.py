@@ -13,7 +13,7 @@ def max_heapify(A, n, i):
 def build_max_heap(A):
 	n = len(A) 
 	for i in range((n - 1) // 2, -1, -1):
-		max_heapify(A, n,i)
+		max_heapify(A, n, i)
 
 def heap_sort(A):
 	build_max_heap(A)
