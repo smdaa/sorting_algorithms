@@ -4,6 +4,7 @@ from insertion import insertion_sort
 from merge import merge_sort
 from quick import quick_sort
 from selection import selection_sort
+from cocktail import cocktail_sort
 import pytest
 
 B = [i for i in range(1, 101, 1)]
@@ -36,4 +37,9 @@ def test_quick():
 def test_selection():
     A = [i for i in range(100, 0, -1)]
     selection_sort(A)
+    assert A == B
+
+def test_cocktail():
+    A = [i for i in range(100, 0, -1)]
+    cocktail_sort(A)
     assert A == B
