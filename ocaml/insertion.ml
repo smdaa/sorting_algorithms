@@ -8,6 +8,3 @@ let rec insertion_sort a =
     match a with 
       [] -> []
     | h :: t -> insert h (insertion_sort t)
-
-
-        
