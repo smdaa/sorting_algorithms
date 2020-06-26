@@ -3,7 +3,7 @@ let rec insert x a =
     [] -> [x]
   | h :: t -> if x <= h then x :: h :: t 
                         else h :: insert x t
-;;
+
 let rec insertion_sort a =
     match a with 
       [] -> []
