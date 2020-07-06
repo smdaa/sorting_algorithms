@@ -1,3 +1,7 @@
 # sorting_algorithms
-insertion:
+#
+#insertion:
 ![](visualisation/insertion/insertion.gif)
+
+#insertion:
+![](visualisation/bubble/bubble.gif)
