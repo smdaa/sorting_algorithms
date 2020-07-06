@@ -5,3 +5,6 @@ insertion:
 
 bubble:
 ![](visualisation/bubble/bubble.gif)
+
+selection:
+![](visualisation/selection/selection.gif)
