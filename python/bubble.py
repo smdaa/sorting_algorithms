@@ -4,7 +4,7 @@ def bubble_sort(A):
 		for j in range(0, len(A) - i - 1):
 			if A[j] > A[j+1]:
 				A[j], A[j + 1] = A[j + 1], A[j]
-				swap = False
+				swap = True
 		if not swap:
 			break
 				
