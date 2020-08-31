@@ -16,4 +16,3 @@ def merge_sort(A):
         return A
     n = len(A) // 2
     return merge(merge_sort(A[:n]), merge_sort(A[n:]))
-

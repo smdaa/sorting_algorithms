@@ -17,3 +17,4 @@ def cocktail_sort(A):
                 A[i], A[i + 1] = A[i + 1], A[i]
                 swap = True
         start += start  
+        

@@ -6,4 +6,3 @@ def insertion_sort(A):
 			A[i + 1] = A[i]
 			i = i - 1
 		A[i + 1] = key
-

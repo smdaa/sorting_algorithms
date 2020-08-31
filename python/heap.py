@@ -20,4 +20,3 @@ def heap_sort(A):
 	for i in range(len(A) - 1, 0, -1):
 		A[0], A[i] = A[i], A[0]
 		max_heapify(A, i, 0)	
-
