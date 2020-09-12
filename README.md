@@ -1,10 +1,10 @@
 # sorting_algorithms
 #
-insertion:
+insertion  :
 ![](visualisation/insertion/insertion.gif)
 
-bubble:
+bubble  :
 ![](visualisation/bubble/bubble.gif)
 
-selection:
+selection  :
 ![](visualisation/selection/selection.gif)
