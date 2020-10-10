@@ -1,0 +1,8 @@
+(** @canonical Sorting.Bubble *)
+module Bubble = Sorting__Bubble
+
+(** @canonical Sorting.Insertion *)
+module Insertion = Sorting__Insertion
+
+(** @canonical Sorting.Merge *)
+module Merge = Sorting__Merge

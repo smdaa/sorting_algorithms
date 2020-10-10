@@ -1,0 +1,6 @@
+ (library
+ (name sorting)
+ (inline_tests)
+ (modules insertion bubble merge)
+ (preprocess
+  (pps ppx_inline_test)))
